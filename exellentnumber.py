@@ -14,9 +14,9 @@ def check(entry):
                     tab.append(x)
 
         if sum(tab) == int(entry):
-            label.config(text='Number is exellent!', fg ="green")
+            label.config(text='Number is perfect!', fg ="green")
         else:
-            label.config(text='Number is not exellent!', fg = "red")
+            label.config(text='Number is not perfect!', fg = "red")
 
     except:
         label.config(text='Please give a number!', fg = "red")
